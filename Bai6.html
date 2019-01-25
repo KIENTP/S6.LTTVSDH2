@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeGym</title>
+    <script>
+        function checkLower(value) {
+            if (value.toLowerCase() === value){
+                return true;
+            }else {
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<script>
+    let value = prompt("Nhập vào 1 kí tự bất kì");
+    if (checkLower(value)) {
+        alert("là chữ in thường");
+    }else {
+        alert("là chữ in hoa");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeGym</title>
+    <script>
+        function tinhGiaiThua(number) {
+            if (number === 0) {
+                return 1;
+            }else {
+                return number*tinhGiaiThua(number-1);
+            }
+        }
+    </script>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("Mời bạn nhập vào số nguyên bất kì"));
+    alert(number + "! = " +tinhGiaiThua(number));
+</script>
+</body>
+</html>
